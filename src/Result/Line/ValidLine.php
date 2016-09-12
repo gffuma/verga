@@ -42,8 +42,8 @@ class ValidLine extends Line {
             call_user_func_array($import, [
                 $this->parsedData,
                 $this->row,
-                $this->line,
                 $this->lineNumber,
+                $this->line,
             ])
         );
     }
