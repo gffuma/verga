@@ -1,0 +1,18 @@
+{
+    "name": "gffuma/verga",
+    "description": "Verga, a battle-tested CSV importer for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gffuma",
+            "email": "fumagalli.gf@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+              "Verga\\": "src/"
+        }
+    }
+}
