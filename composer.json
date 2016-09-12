@@ -9,7 +9,9 @@
             "email": "fumagalli.gf@gmail.com"
         }
     ],
-    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*"
+    },
     "autoload": {
         "psr-4": {
               "Verga\\": "src/"
