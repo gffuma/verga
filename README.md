@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gffuma/verga.svg?branch=master)](https://travis-ci.org/gffuma/verga)
+
 # Verga
 Verga, a battle-tested CSV importer for PHP
 
