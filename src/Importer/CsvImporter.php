@@ -171,6 +171,11 @@ class CsvImporter {
      * Parse csv line and return the row with values
      * splitted by delimiter.
      *
+     * TODO: str_getcsv http://php.net/manual/en/function.str-getcsv.php
+     * take only one charter as delimter, write custom function
+     * or validate delimter to be one charter only, because with
+     * no check this behaviour can lead to a bugs...
+     *
      * @param  int    $lineNumber
      * @param  string $line
      * @return array
