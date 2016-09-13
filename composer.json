@@ -1,6 +1,11 @@
 {
     "name": "gffuma/verga",
     "description": "Verga, a battle-tested CSV importer for PHP",
+    "keywords": [
+      "csv",
+      "import",
+      "importer"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
