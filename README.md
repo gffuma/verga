@@ -260,3 +260,9 @@ foreach ($result->getLines() as $line) {
     $line->hasLineError();
 }
 ```
+
+## Todo
+* Retrieve feature with cache
+* Implement jsonSerialize http://php.net/manual/en/class.jsonserializable.php interface on results objects for better js integration
+* More friendly validation API try to use https://packagist.org/packages/illuminate/validation as rule engine
+* A way to stop import and prevent wrong data to be imported
